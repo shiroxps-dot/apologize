@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำขอโทษจากใจ</title>
+    <!-- นำเข้าฟอนต์ภาษาไทยจาก Google Fonts เพื่อความสวยงาม -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Prompt', sans-serif;
+            /* พื้นหลังสีเทาอมฟ้าอ่อนๆ ดูสงบและจริงใจ */
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #4a4a4a;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            max-width: 600px;
+            width: 100%;
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            /* แอนิเมชันตอนเปิดหน้าเว็บ */
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            font-weight: 400;
+            color: #5b7c99;
+        }
+
+        .divider {
+            width: 50px;
+            height: 2px;
+            background-color: #cfdef3;
+            margin: 30px auto;
+        }
+
+        .closing {
+            font-size: 15px;
+            color: #888;
+            margin-top: 30px;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* สำหรับมือถือ */
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 20px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ขอโทษจากใจจริงนะ</h1>
+        
+        <p>
+            ที่เขียนข้อความนี้ขึ้นมา ไม่ได้หวังจะเรียกร้องอะไรเลย<br>
+            แค่ตระหนักได้และอยากขอโทษจากใจจริงกับทุกสิ่งที่ฉันเคยทำไม่ดี<br>
+            ขอโทษที่ในวันนั้นดูแลความรู้สึกหนูได้ไม่ดีพอ
+        </p>
+
+        <p class="highlight">
+            ฉันรู้ว่าความผิดพลาดบางอย่างมันกลับไปแก้ไขไม่ได้<br>
+            แต่อยากขอร้องแค่อย่างเดียว... ขออย่าให้เราเกลียดกันเลยนะ
+        </p>
+
+        <div class="divider"></div>
+
+        <p>
+            หลังจากนี้ ฉันขออวยพรให้หนูจากใจ...<br>
+            ขอให้หนูได้เจอคนที่พร้อมจะรักหนูจริงๆ<br>
+            เจอคนที่คอยดูแล เอาใจใส่ และให้ความสำคัญกับหนูเท่าที่หนูควรได้รับ<br>
+            และขอให้เขาคนนั้น "ตั้งใจรักหนูจริงๆ" ในแบบที่หนูคู่ควรนะ
+        </p>
+
+        <p class="closing">ด้วยความปรารถนาดีเสมอ</p>
+    </div>
+
+</body>
+</html>
